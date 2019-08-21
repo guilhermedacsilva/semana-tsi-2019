@@ -1,0 +1,134 @@
+html, body {
+	font-size: 20px;
+}
+
+.topo {
+	margin: 1rem 0 3rem;
+}
+
+.cartaz {
+	width: 100%;
+}
+
+h1 {
+	display: none;
+}
+
+p {
+	text-align: justify;
+}
+
+.marcador {
+	height: 1.5em;
+	position: relative;
+	top: -0.3em;
+	margin-right: 1em;
+}
+
+.margem-baixo {
+	margin-bottom: 3rem;
+}
+
+.preenchimento-acima {
+	padding-top: 3rem;
+}
+
+.imagem-margem-esquerda {
+	margin-left: 4%;
+	padding: 0;
+	border-radius: 0.5rem;
+}
+
+.imagem-margem-direita {
+	margin-right: 4%;
+	padding: 0;
+	border-radius: 0.5rem;
+}
+
+.secao-colorida {
+	background: #1d6b25;
+	color: white;
+	margin-bottom: 3rem;
+}
+
+.cronograma {
+	border-right: 1px solid #1d6b25;
+	border-left: 1px solid #1d6b25;
+	border-radius: 2rem 2rem 1rem 1rem;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+.cronograma h2 {
+	margin: 0;
+	padding: 0.5rem;
+	background: #1d6b25;
+	color: white;
+	text-align: center;
+}
+
+.cronograma-conteudo {
+	padding: 2rem 1rem;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+
+.cronograma-conteudo figure {
+	padding: 0;
+	margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .cronograma-conteudo figure {
+    padding: 0 2rem;
+  }
+}
+
+.cronograma-conteudo figure img {
+	width: 100%;
+	border-radius: 0.5rem;
+}
+
+.cronograma-texto {
+	background: white;
+	border-radius: 1rem;
+	padding: 1.25rem;
+}
+
+.cronograma-texto small {
+	display: block;
+	font-size: 1.2rem;
+}
+
+.relogio {
+	top: 3px;
+}
+
+.cronograma-texto h3 {
+	margin: 0.5rem 0 1rem;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 0.5rem;
+	font-weight: bold;
+}
+
+.cronograma-texto p {
+	font-size: 0.9em;
+}
+
+.cronograma-rodape {
+	background: #1d6b25;
+	padding: 0.33rem;
+}
+
+.mapa {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+footer {
+	padding: 2rem;
+	background: #1d6b25;
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+}
