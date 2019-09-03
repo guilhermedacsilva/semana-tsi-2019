@@ -13,12 +13,12 @@ class LoginControlador extends Controlador
 
     public function armazenar()
     {
-        $usuario = Usuario::buscarEmail($_POST['email']);
-        if ($usuario && $usuario->verificarSenha($_POST['senha'])) {
+        $usuario = Usuario::logar($_POST['ra'], $_POST['senha']);
+        if ($usuario) {
             DW3Sessao::set('usuario', $usuario->getId());
-            $this->redirecionar(URL_RAIZ . 'mensagens');
+            $this->redirecionar(URL_RAIZ . 'desafio');
         } else {
-            $this->setErros(['login' => 'Usuário ou senha inválido.']);
+            $this->setErros(['login' => 'RA ou senha inválido.']);
             $this->visao('login/criar.php');
         }
     }
@@ -26,6 +26,6 @@ class LoginControlador extends Controlador
     public function destruir()
     {
         DW3Sessao::deletar('usuario');
-        $this->redirecionar(URL_RAIZ . 'login');
+        $this->redirecionar(URL_RAIZ);
     }
 }
