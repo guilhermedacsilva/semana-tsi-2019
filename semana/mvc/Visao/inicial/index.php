@@ -1,5 +1,5 @@
 <header class="topo">
-	<h1><?= APLICACAO_NOME ?></h1>
+	<h1 class="hide"><?= APLICACAO_NOME ?></h1>
 	<img src="<?= URL_IMG . 'cartaz.jpg' ?>" alt="8ª Semana Acadêmica" class="cartaz">
 </header>
 <main>

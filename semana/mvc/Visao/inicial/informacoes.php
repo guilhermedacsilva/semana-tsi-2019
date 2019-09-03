@@ -4,7 +4,7 @@
             <img src="<?= URL_IMG . 'mascote.png' ?>" alt="Mascote de TSI" class="marcador">
             Informações Adicionais
         </h2>
-        <p class="margem-baixo">
+        <p class="text-justify margem-baixo">
             <img src="<?= URL_IMG . 'duvida.jpg' ?>" alt="Dúvida" class="col-xs-5 col-md-4 col-lg-3 pull-right imagem-margem-esquerda">
             As aulas regulares estão dispensadas nestes dias. Cada professor deve acompanhar os alunos nas palestras noturnas que ocorrerem em horário correlato a sua disciplina. A presença dos alunos será verificada através de procedimento próprio da organização e repassada aos professores após a semana do evento.
             <br>
