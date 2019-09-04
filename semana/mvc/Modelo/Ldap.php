@@ -5,7 +5,10 @@ class Ldap extends Modelo
 {
 	public static function buscarNome($uid, $senha)
 	{
-		$conexao = \ldap_connect(LDAP_URI);
+		echo 0;
+		$host = substr(LDAP_URI, 8, 11);
+		echo $host;
+		$conexao = \ldap_connect($host, 389);
 		echo 1;
 		if ($conexao) {
 			echo 2;
