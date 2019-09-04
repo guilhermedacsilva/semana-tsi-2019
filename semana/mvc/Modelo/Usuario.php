@@ -15,7 +15,7 @@ class Usuario extends Modelo
     public function __construct(
         $ra,
         $nome,
-        $id
+        $id = null
     ) {
         $this->id = $id;
         $this->ra = $ra;
@@ -37,23 +37,18 @@ class Usuario extends Modelo
         return $this->nome;
     }
 
-    private function inserir()
-    {
-        DW3BancoDeDados::getPdo()->beginTransaction();
-        $comando = DW3BancoDeDados::prepare(self::INSERIR);
-        $comando->bindValue(1, $this->ra);
-        $comando->bindValue(2, $this->nome);
-        $comando->execute();
-        $this->id = DW3BancoDeDados::getPdo()->lastInsertId();
-        DW3BancoDeDados::getPdo()->commit();
-    }
-
     public static function logar($ra, $senha)
     {
+        $nome = Ldap::buscarNome($ra, $senha);
+        if (!$nome) {
+            return null;
+        }
         $usuario = self::buscarNoBanco($ra);
         if (!$usuario) {
-            $usuario = self::buscarNoLdap($ra);
+            $usuario = new Usuario($ra, $nome);
+            $usuario->inserir();
         }
+        return $usuario;
     }
 
     private static function buscarNoBanco($ra)
@@ -71,5 +66,16 @@ class Usuario extends Modelo
             );
         }
         return $objeto;
+    }
+
+    private function inserir()
+    {
+        DW3BancoDeDados::getPdo()->beginTransaction();
+        $comando = DW3BancoDeDados::prepare(self::INSERIR);
+        $comando->bindValue(1, $this->ra);
+        $comando->bindValue(2, $this->nome);
+        $comando->execute();
+        $this->id = DW3BancoDeDados::getPdo()->lastInsertId();
+        DW3BancoDeDados::getPdo()->commit();
     }
 }

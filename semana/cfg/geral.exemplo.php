@@ -1,5 +1,12 @@
 <?php
 
+// DNS
+const LDAP_URI = 'ldap://host:port';
+const BASE_DNS_ARRAY = [];
+const LDAP_FILTRO = '';
+const LDAP_ATRIBUTO_NOME = '';
+const LDAP_ATRIBUTOS_ARRAY = [LDAP_ATRIBUTO_NOME];
+
 const APLICACAO_NOME = 'Semana Acadêmica de TSI da UTFPR Câmpus Guarapuava';
 
 // Se a URL_RAIZ mudar, verifique arquivo .htaccess
