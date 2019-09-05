@@ -8,18 +8,19 @@ CREATE TABLE usuarios (
 )
 ENGINE = InnoDB;
 
-CREATE TABLE frases (
+CREATE TABLE codigos (
     id INT NOT NULL AUTO_INCREMENT ,
     nome VARCHAR(255) NOT NULL ,
     PRIMARY KEY (id)
 )
 ENGINE = InnoDB;
 
-CREATE TABLE usuarios_frases (
+CREATE TABLE usuarios_codigos (
     usuario_id INT NOT NULL ,
-    frase_id INT NOT NULL ,
-    PRIMARY KEY (usuario_id, frase_id),
+    codigo_id INT NOT NULL ,
+    pontos INT NOT NULL ,
+    PRIMARY KEY (usuario_id, codigo_id),
     FOREIGN KEY (usuario_id) REFERENCES usuarios (id),
-    FOREIGN KEY (frase_id) REFERENCES frases (id)
+    FOREIGN KEY (codigo_id) REFERENCES codigos (id)
 )
 ENGINE = InnoDB;

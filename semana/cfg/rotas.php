@@ -6,6 +6,7 @@ $rotas = [
     ],
     '/desafio' => [
         'GET' => '\Controlador\DesafioControlador#index',
+        'POST' => '\Controlador\DesafioControlador#armazenar',
     ],
     '/login' => [
         'GET' => '\Controlador\LoginControlador#criar',

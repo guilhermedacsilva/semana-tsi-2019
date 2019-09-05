@@ -88,12 +88,9 @@ class Usuario extends Modelo
 
     private function inserir()
     {
-        DW3BancoDeDados::getPdo()->beginTransaction();
         $comando = DW3BancoDeDados::prepare(self::INSERIR);
         $comando->bindValue(1, $this->ra);
         $comando->bindValue(2, $this->nome);
         $comando->execute();
-        $this->id = DW3BancoDeDados::getPdo()->lastInsertId();
-        DW3BancoDeDados::getPdo()->commit();
     }
 }
