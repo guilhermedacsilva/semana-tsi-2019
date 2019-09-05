@@ -21,7 +21,10 @@ class Ldap extends Modelo
 			],
 			CURLOPT_POSTFIELDS => json_encode($dados)
 		]);
-		var_dump(curl_exec($curl));
-		exit;
+		$resultado = json_decode(curl_exec($curl), true);
+		if ($resultado['status'] == 200 && $resultado['message'] == 'authorized') {
+			return $resultado['user']['full_name'];
+		}
+		return false;
 	}
 }
