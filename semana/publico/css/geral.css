@@ -25,6 +25,10 @@ html, body {
 	margin-bottom: 1.5rem;
 }
 
+.margem-baixo-sm {
+	margin-bottom: 0.8rem;
+}
+
 .preenchimento-acima {
 	padding-top: 3rem;
 }

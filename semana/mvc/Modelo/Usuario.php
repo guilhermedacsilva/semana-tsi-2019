@@ -9,9 +9,12 @@ class Usuario extends Modelo
     const BUSCAR_POR_ID = 'SELECT * FROM usuarios WHERE id = ? LIMIT 1';
     const BUSCAR_POR_RA = 'SELECT * FROM usuarios WHERE ra = ? LIMIT 1';
     const INSERIR = 'INSERT INTO usuarios(ra,nome) VALUES (?, ?)';
+    const CALCULAR_PONTUACAO = 'SELECT sum(pontos) FROM usuarios_codigos WHERE usuario_id = ?';
+    const BUSCAR_CODIGOS_RESOLVIDOS = 'SELECT codigo_id FROM usuarios_codigos WHERE usuario_id = ?';
     private $id;
     private $ra;
     private $nome;
+    private $codigosResolvidos;
 
     public function __construct(
         $ra,
@@ -28,14 +31,18 @@ class Usuario extends Modelo
         return $this->id;
     }
 
-    public function getRa()
-    {
-        return $this->ra;
-    }
-
     public function getNome()
     {
         return $this->nome;
+    }
+
+    public function getPontuacao()
+    {
+        $comando = DW3BancoDeDados::prepare(self::CALCULAR_PONTUACAO);
+        $comando->bindValue(1, $this->id);
+        $comando->execute();
+        $registro = $comando->fetch();
+        return $registro[0] == null ? 0 : $registro[0];
     }
 
     public static function logar($ra, $senha)
@@ -92,5 +99,16 @@ class Usuario extends Modelo
         $comando->bindValue(1, $this->ra);
         $comando->bindValue(2, $this->nome);
         $comando->execute();
+    }
+
+    public function isCodigoResolvido($codigoId)
+    {
+        if ($this->codigosResolvidos == null) {
+            $comando = DW3BancoDeDados::prepare(self::BUSCAR_CODIGOS_RESOLVIDOS);
+            $comando->bindValue(1, $this->id);
+            $comando->execute();
+            $this->codigosResolvidos = array_column($comando->fetchAll(), 'codigo_id');
+        }
+        return array_search($codigoId, $this->codigosResolvidos) !== false;
     }
 }

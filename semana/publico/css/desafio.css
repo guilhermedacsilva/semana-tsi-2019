@@ -11,3 +11,37 @@ body {
 	top: -3px;
 	margin-left: 5px;
 }
+
+strong {
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+.desafio-caixa {
+	padding: 10px;
+}
+
+.resolvido {
+	position: relative;
+}
+
+.resolvido img,
+.resolvido .caption {
+	opacity: 0.33;
+}
+
+.resolvido-mensagem {
+	display: none;
+}
+
+.resolvido .resolvido-mensagem {
+	display: block;
+	z-index: 5;
+	position: absolute;
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-shadow: 1px 1px white;
+}
