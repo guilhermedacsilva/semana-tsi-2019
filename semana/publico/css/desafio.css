@@ -1,0 +1,13 @@
+body {
+	background-image: url('../img/textura-interrogacao.jpg');
+}
+
+.inline {
+	display: inline;
+}
+
+.btn-linha {
+	position: relative;
+	top: -3px;
+	margin-left: 5px;
+}

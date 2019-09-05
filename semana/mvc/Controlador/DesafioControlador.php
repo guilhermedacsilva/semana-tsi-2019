@@ -5,6 +5,6 @@ class DesafioControlador extends Controlador
 {
     public function index()
     {
-        $this->visao('desafio/index.php');
+        $this->visao('desafio/index.php', [], 'desafio.php');
     }
 }

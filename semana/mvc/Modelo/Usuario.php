@@ -6,6 +6,7 @@ use \Framework\DW3BancoDeDados;
 
 class Usuario extends Modelo
 {
+    const BUSCAR_POR_ID = 'SELECT * FROM usuarios WHERE id = ? LIMIT 1';
     const BUSCAR_POR_RA = 'SELECT * FROM usuarios WHERE ra = ? LIMIT 1';
     const INSERIR = 'INSERT INTO usuarios(ra,nome) VALUES (?, ?)';
     private $id;
@@ -43,7 +44,7 @@ class Usuario extends Modelo
         if (!$nome) {
             return null;
         }
-        $usuario = self::buscarNoBanco($ra);
+        $usuario = self::buscarPorRa($ra);
         if (!$usuario) {
             $usuario = new Usuario($ra, $nome);
             $usuario->inserir();
@@ -51,10 +52,27 @@ class Usuario extends Modelo
         return $usuario;
     }
 
-    private static function buscarNoBanco($ra)
+    private static function buscarPorRa($ra)
     {
         $comando = DW3BancoDeDados::prepare(self::BUSCAR_POR_RA);
         $comando->bindValue(1, $ra);
+        $comando->execute();
+        $objeto = null;
+        $registro = $comando->fetch();
+        if ($registro) {
+            $objeto = new Usuario(
+                $registro['ra'],
+                $registro['nome'],
+                $registro['id']
+            );
+        }
+        return $objeto;
+    }
+
+    public static function buscarPorId($id)
+    {
+        $comando = DW3BancoDeDados::prepare(self::BUSCAR_POR_ID);
+        $comando->bindValue(1, $id);
         $comando->execute();
         $objeto = null;
         $registro = $comando->fetch();

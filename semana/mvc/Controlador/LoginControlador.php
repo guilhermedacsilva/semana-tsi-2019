@@ -8,7 +8,7 @@ class LoginControlador extends Controlador
 {
     public function criar()
     {
-        $this->visao('login/criar.php');
+        $this->visao('login/criar.php', [], 'desafio.php');
     }
 
     public function armazenar()
@@ -19,13 +19,13 @@ class LoginControlador extends Controlador
             $this->redirecionar(URL_RAIZ . 'desafio');
         } else {
             $this->setErros(['login' => 'RA ou senha inválido.']);
-            $this->visao('login/criar.php');
+            $this->visao('login/criar.php', [], 'desafio.php');
         }
     }
 
     public function destruir()
     {
         DW3Sessao::deletar('usuario');
-        $this->redirecionar(URL_RAIZ);
+        $this->redirecionar(URL_RAIZ . 'login');
     }
 }
