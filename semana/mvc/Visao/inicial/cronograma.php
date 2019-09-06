@@ -73,7 +73,7 @@
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'git.png' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
@@ -100,7 +100,7 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'nativescript.png' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
@@ -144,7 +144,7 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'linux.jpg' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
@@ -165,7 +165,7 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'laravel.jpg' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
@@ -200,7 +200,7 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'testes.jpg' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
@@ -222,7 +222,7 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'vuejs.png' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
