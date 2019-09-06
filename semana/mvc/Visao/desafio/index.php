@@ -33,17 +33,15 @@
         <div class="cronograma-conteudo">
 
             <?php $this->incluirVisao('desafio/item.php', [
-            	'href' => URL_PUBLIC,
+            	'id' => 1,
             	'img' => 'oculto.png',
             	'texto' => 'Mensagem oculta',
-            	'resolvido' => $this->getUsuario()->isCodigoResolvido(1)
             ]) ?>
 
             <?php $this->incluirVisao('desafio/item.php', [
-            	'href' => '',
-            	'img' => 'oculto.png',
-            	'texto' => '123',
-            	'resolvido' => $this->getUsuario()->isCodigoResolvido(2)
+                'id' => 2,
+            	'img' => 'dicionario.png',
+            	'texto' => 'Números do sucesso',
             ]) ?>
 
         </div>

@@ -21,6 +21,10 @@ strong {
 	padding: 10px;
 }
 
+.thumbnail-imagem {
+	height: 150px!important;
+}
+
 .resolvido {
 	position: relative;
 }

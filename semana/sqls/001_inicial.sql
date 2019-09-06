@@ -25,3 +25,8 @@ CREATE TABLE usuarios_codigos (
     FOREIGN KEY (codigo_id) REFERENCES codigos (id)
 )
 ENGINE = InnoDB;
+
+INSERT INTO codigos (nome) VALUES ('Seu futuro depende de muita coisa, mas principalmente de você');
+INSERT INTO codigos (nome) VALUES ('Algumas pessoas sonham com o sucesso, enquanto outras acordam e trabalham duro para isso');
+
+
