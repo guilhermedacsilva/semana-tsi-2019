@@ -5,6 +5,16 @@
     </h2>
     <p class="text-justify margem-baixo">
         <img src="<?= URL_IMG . 'notebook.jpg' ?>" alt="Notebook" class="col-xs-5 col-md-4 col-lg-3 imagem-margem-direita">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget arcu eros. Proin rutrum sapien lacus, nec ullamcorper mi pellentesque a. Vestibulum auctor nunc at sem consectetur ultrices. Praesent cursus aliquam tortor, nec suscipit neque ornare sed. Quisque non dignissim ante, non venenatis diam. Sed ultricies neque sed ante finibus egestas. Donec fermentum faucibus ipsum vel tempor. Quisque placerat in mi vel finibus. Sed a rutrum lorem. Nam bibendum tellus eget odio vulputate mollis. Nullam pharetra orci eget condimentum commodo. Fusce hendrerit massa nibh, et tempor dui sagittis a. Praesent vestibulum elit felis.
+As inscrições em minicursos na 8ª Semana Acadêmica de TSI ocorrerá nas seguintes datas: 09/09 a 20/09, a exclusividade para inscrição é dada aos alunos de TSI; 16/09 a 20/09, os alunos de TSI ainda poderão se inscrever, mas a coordenação também aceitará inscrições de alunos de outros cursos e instituições.
+<br><br>
+Para se inscrever, é preciso seguir as seguintes instruções:<br>
+I - Observar os pré-requisitos do minicurso desejado.<br>
+II - Verificar a disponibilidade de vagas no minicurso junto ao Prof. Roni ou Prof. Guilherme na coordenação de TSI (sala B10) ou via email.<br>
+III - Efetuar o pagamento da contribuição ao coffee-break ao Prof. Roni ou Prof. Guilherme na coordenação de TSI (sala B10).<br>
+<br>
+Observações:<br>
+1ª - As vagas para os minicursos são limitadas, as quais serão alocadas por ordem de inscrição dos interessados.<br>
+2ª - A inscrição no minicurso será feita no momento do pagamento. Portanto antecipe-se para garantir a vaga no minicurso desejado.<br>
+3ª - Os 10 primeiros a se inscreverem em cada minicurso receberão um adesivo com o logo da tecnologia referente ao minicurso.<br>
     </p>
 </section>
