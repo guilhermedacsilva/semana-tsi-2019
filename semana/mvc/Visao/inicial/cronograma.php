@@ -85,6 +85,8 @@
 <strong>Ministrante: Jonadabe de Souza Nascimento</strong><br>
 Git e GitHub são ferramentas de controle de versão e publicação de código mais utilizado no mundo. Elas são imprescindíveis a qualquer projeto de software e a qualquer profissional do mercado quando trabalha de forma individual ou em grupo. As empresas cada vez mais olham os perfis de seus candidatos no GitHub. 
 Se você tem interesse em aprender como fazer um ótimo controle de versões do seu sistema ou arquivos pessoais, compartilhar seu código e gerenciar seus projetos de forma eficaz, corre pra se inscrever!<br><br>
+Contato: <a target="_blank" href="https://github.com/jhonndabi">Github</a>.
+<br><br>
 Requisitos:
 <ul>
     <li>Conhecimento básico de Linux</li>
@@ -112,15 +114,8 @@ Quantidade de vagas: 10
 Por muitos anos o mercado de desenvolvimento mobile era exclusivo de linguagens nativas como Objective-C e Java. Conforme o tempo foi passando, surgiram novas tecnologias e linguagens, tal como o Kotlin no Android e Swift no iOS. Como o JavaScript consegue estar realmente em todo lugar, ele conseguiu chegar também no mundo mobile. Neste minicurso será abordado o desenvolvimento de um aplicativo real com o framework, instalação de plugins, possibilidades do framework e muito mais.
 <br><br>
 Contato:
-Lucas Antonio Ramos Sartori ( 
-<a target="_blank" href="https://www.linkedin.com/in/lucas-antonio-ramos-sartori-4a61b6116/">
-Linkedin
-</a>,
-<a target="_blank" href="https://github.com/Sartori-RIA">
-    Github
-</a> ou lucassartori@cookiecode.com.br )
-e Mateus Spadari (
-<a target="_blank" href="https://github.com/MateusSpadari">Github</a> )
+Lucas Antonio Ramos Sartori (<a target="_blank" href="https://www.linkedin.com/in/lucas-antonio-ramos-sartori-4a61b6116/">Linkedin</a>, <a target="_blank" href="https://github.com/Sartori-RIA">Github</a> ou lucassartori@cookiecode.com.br)
+e Mateus Spadari (<a target="_blank" href="https://github.com/MateusSpadari">Github</a>)
 <br>
 <br>
 Recomendações:
@@ -160,6 +155,8 @@ Quantidade de vagas: 10
                 <p>
 <strong>Ministrante: Peterson Medeiros</strong><br>
 Você tem algumas dificuldades com o Linux ou deseja sanar algumas dúvidas em relação a este Sistema Operacional? Se inscreva para fazer o minicurso de Linux! Como profissional de tecnologia, vai chegar um dia em que você precisará usar o Linux, então, esteja preparado! Como exemplo, você precisará implantar aplicações em servidores diretamente por linha de comando, quando a maioria dos servidores rodam no Linux, incluindo serviços em nuvem como Heroku e Digital Ocean.<br><br>
+Contato: <a target="_blank" href="https://www.linkedin.com/in/petersonmedeiros/">Linkedin</a> e <a target="_blank" href="https://github.com/Peterfilho">Github</a>.
+<br><br>
 Requisitos: nenhum.<br><br>
 Quantidade de vagas: 10
                 </p>
@@ -183,6 +180,7 @@ Contato: <a target="_blank" href="https://www.linkedin.com/in/lucas-padilha-gois
 <br><br>
 Requisitos:
 <ul>
+    <li>Conhecimento em PHP e HTML</li>
     <li>O aluno que decidir trazer o notebook, deverá possuir o ambiente homestead instalado ou o PHP local com as devidas extensões habilitadas, conforme a página de requisitos do framework, disponível em: https://laravel.com/docs/6.0#server-requirements</li>
     <li>PHP >= 7.2.0</li>
     <li>BCMath PHP Extension</li>
@@ -195,6 +193,54 @@ Requisitos:
     <li>XML PHP Extension</li>
     <li>Também será necessário possuir o banco de dados sqlite habilitado para a realização dos acessos ao banco.</li>
 </ul>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 5 - Entendendo Testes de Software</h3>
+                <p>
+<strong>Ministrante: Alessandro Dias Batista</strong><br>
+Quando desenvolvemos aplicações geralmente acabamos testando de forma manual o correto comportamento de suas funcionalidades, mas um pouco que o sistema cresce isso se torna impraticável e mesmo com aplicações pequenas acabamos esquecendo as vezes de testar uma coisa ou outra. Para isso, temos uma abordagem utilizada pela engenharia de software chamada de testes automatizados. Neste minicurso iremos aprender sobre o que são testes de software, como utilizar eles em nossas aplicações para ter uma garantia maior de funcionamento correto da mesma. Existem vários tipos de testes de software, mas focaremos nos mais utilizados: testes de unidade, explicando claro, testes de integração e técnicas de desenvolvimento de software baseadas em testes como TDD e BDD.<br><br>
+Contato: <a target="_blank" href="https://www.linkedin.com/in/alessandrodbatista/">Linkedin</a> e <a target="_blank" href="https://github.com/adbatista">Github</a>
+<br><br>
+Requisitos: Java ou PHP ou Ruby ou JavaScript.
+<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 6 - Introdução ao Vue.js</h3>
+                <p>
+<strong>Ministrante: Renan Silva, Matheus Mazepa e Pedro Ida</strong><br>
+Vue é um framework JavaScript progressivo para construção de interfaces de usuário. Ao contrário de outros frameworks monolíticos, Vue foi projetado desde sua concepção para ser adotável incrementalmente. A biblioteca principal é focada exclusivamente na camada visual, sendo fácil adotar e integrar com outras bibliotecas ou projetos existentes. Por outro lado, Vue também é perfeitamente capaz de dar poder a sofisticadas Single-Page Applications quando é usado em conjunto com ferramentas modernas e bibliotecas de apoio. No minicurso será feito um simples gerador de memes, para entender na prática os conceitos básicos dessa tecnologia.<br><br>
+Contato:
+<ul>
+    <li>Renan Silva: <a target="_blank" href="https://www.linkedin.com/in/renan-g-a-silva/">Linkedin</a>.</li>
+    <li>Matheus Mazepa: <a target="_blank" href="https://www.linkedin.com/in/matheus-mazepa-17019a2b/">Linkedin</a> e <a target="_blank" href="https://github.com/Matheus-Mazepa">Github</a></li>
+    <li>Pedro Ida: <a target="_blank" href="https://www.linkedin.com/in/pedro-henrique-serpa-ida-25417214a/">Linkedin</a> e <a target="_blank" href="https://github.com/pedroida">Github</a></li>
+</ul>
+Requisitos: HTML, CSS e JavaScript.
+<br><br>
 Quantidade de vagas: 10
                 </p>
             </div>
