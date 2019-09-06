@@ -50,7 +50,7 @@
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+                <img src="<?= URL_IMG . 'churrasco.jpg' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
