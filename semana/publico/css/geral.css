@@ -133,3 +133,12 @@ html, body {
 	text-align: center;
 	font-size: 0.8em;
 }
+
+.link-desafio:link,
+.link-desafio:active,
+.link-desafio:hover,
+.link-desafio:visited {
+	text-decoration: underline;
+	color: white;
+	font-style: italic;
+}

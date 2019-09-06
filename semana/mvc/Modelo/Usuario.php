@@ -11,6 +11,7 @@ class Usuario extends Modelo
     const INSERIR = 'INSERT INTO usuarios(ra,nome) VALUES (?, ?)';
     const CALCULAR_PONTUACAO = 'SELECT sum(pontos) FROM usuarios_codigos WHERE usuario_id = ?';
     const BUSCAR_CODIGOS_RESOLVIDOS = 'SELECT codigo_id FROM usuarios_codigos WHERE usuario_id = ?';
+    const RANKING = 'SELECT u.nome, sum(uc.pontos) pontuacao FROM usuarios u JOIN usuarios_codigos uc ON (u.id = uc.usuario_id) GROUP BY u.nome ORDER BY pontuacao DESC';
     private $id;
     private $ra;
     private $nome;
@@ -110,5 +111,11 @@ class Usuario extends Modelo
             $this->codigosResolvidos = array_column($comando->fetchAll(), 'codigo_id');
         }
         return array_search($codigoId, $this->codigosResolvidos) !== false;
+    }
+
+    public static function ranking()
+    {
+        $comando = DW3BancoDeDados::query(self::RANKING);
+        return $comando->fetchAll();
     }
 }
