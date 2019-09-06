@@ -142,3 +142,10 @@ html, body {
 	color: white;
 	font-style: italic;
 }
+
+@media (min-width: 992px) {
+	.imagem-desafio-funko {
+		position: relative;
+		top: -3em;
+	}
+}
