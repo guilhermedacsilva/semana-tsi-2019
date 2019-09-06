@@ -10,7 +10,7 @@
 	    <meta name="description" content="VIII Semana Acadêmica de TSI - UTFPR Câmpus Guarapuava">
 	    <link rel="stylesheet" href="<?= URL_CSS . 'bootstrap.min.css' ?>">
 	    <link rel="stylesheet" href="<?= URL_CSS . 'geral.css' ?>">
-	    <link rel="shortcut icon" href="<?= URL_PUBLIC ?>/ico/mascote.ico">
+	    <link rel="shortcut icon" href="<?= URL_PUBLICO ?>/ico/mascote.ico">
 	</head>
 	<body>
 		<?php $this->imprimirConteudo() ?>

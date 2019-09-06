@@ -33,7 +33,7 @@
         <div class="cronograma-conteudo">
 
             <?php $this->incluirVisao('desafio/item.php', [
-            	'href' => '',
+            	'href' => URL_PUBLIC,
             	'img' => 'oculto.png',
             	'texto' => 'Mensagem oculta',
             	'resolvido' => $this->getUsuario()->isCodigoResolvido(1)
