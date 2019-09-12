@@ -57,9 +57,16 @@
                     <span class="glyphicon glyphicon-time relogio"></span>
                     19:00 - 22:00
                 </small>
-                <h3>Churrasco</h3>
+                <h3>Churrasco de TSI</h3>
                 <p>
-                    Em breve.
+Churrasco de TSI! 🥩🍗🥇🎮🎉🎊<br><br>
+Venha participar do churrasco anual de confraternização entre professores e alunos de TSI!<br><br>
+Além de uma bom churrasco e acompanhamentos, preparado pelos professores, também haverá torneios de games.<br><br>
+Nesta edição, teremos o torneio de FIFA e Mortal Kombat no XBox, que será transmitido em telão.<br><br>
+Não fique fora dessa!<br><br>
+Valor: R$ 15,00. O pagamento deve ser feito ao Prof. Guilherme ou ao Prof. Roni (Sala B10) até 23/09.<br><br>
+A confraternização acontecerá em área anexa ao Restaurante KM (nos fundos). O restaurante fica próximo a uma das entradas do campus do CEDETEG da Unicentro (R. Simeão Varela de Sá, 71 - Vila Carli, Guarapuava).<br><br>
+IMPORTANTE: NÃO SERÁ PERMITIDA A ENTRADA E/OU CONSUMO DE BEBIDAS ALCOÓLICAS.
                 </p>
             </div>
         </div>
