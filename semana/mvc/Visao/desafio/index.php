@@ -32,17 +32,6 @@
         <h2>Listagem de desafios</h2>
         <div class="cronograma-conteudo">
 
-            <?php $this->incluirVisao('desafio/item.php', [
-            	'id' => 1,
-            	'img' => 'oculto.png',
-            	'texto' => 'Mensagem oculta',
-            ]) ?>
-
-            <?php $this->incluirVisao('desafio/item.php', [
-                'id' => 2,
-            	'img' => 'dicionario.png',
-            	'texto' => 'Números do sucesso',
-            ]) ?>
 
         </div>
         <div class="cronograma-rodape"></div>
