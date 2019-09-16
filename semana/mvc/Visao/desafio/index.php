@@ -22,7 +22,7 @@
 
 	<form class="form-inline margem-baixo-md" method="POST" action="<?= URL_RAIZ . 'desafio' ?>">
 		<div class="form-group">
-			Inserir código:
+			Inserir frase secreta:
 			<input name="codigo" class="form-control btn-linha">
 			<button type="submit" class="btn btn-primary btn-linha">Enviar</button>
 		</div>
