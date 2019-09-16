@@ -36,7 +36,12 @@
                 </small>
                 <h3>Palestra principal</h3>
                 <p>
-                    Em breve.
+<strong>Título da Palestra:</strong> Inteligência em Negócios: Uma visão de mercado<br><br>
+<strong>Descrição:</strong> Promover uma discussão sobre o mercado de Business Intelligence e de TI de uma forma geral, abordando os conhecimentos esperados de um profissional neste segmento.<br><br>
+<strong>Palestrante:</strong> Flávio Hideki Ono<br><br>
+<strong>Biografia:</strong> Natural de Londrina-PR, Flávio Ono é graduado em Processamento de Dados pela Universidade Estadual de Maringá (UEM) e pós-graduado  em Gestão Estratégica de Negócios pelo ISAE/FGV. Contando com mais de 25 anos de atuação na área de TI, trabalhou como analista de sistemas em empresas como COAMO e COCAMAR e atuou também na área de infraestrutura de TI e gestão (site manager PR/SC) nas empresas Global Telecom, Vivo, Portugal Telecom e PrimeSys. 
+Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 anos até encarar um novo desafio, iniciando como sócio-proprietário da QTI, empresa local de desenvolvimento de software e consultoria em gestão.
+
                 </p>
             </div>
         </div>
@@ -107,50 +112,6 @@ Quantidade de vagas: 10
 
         <div class="cronograma-conteudo">
             <figure class="col-sm-5 col-md-4">
-                <img src="<?= URL_IMG . 'nativescript.png' ?>" alt="Palestra">
-            </figure>
-            <div class="col-sm-7 col-md-8 cronograma-texto">
-                <small>
-                    <span class="glyphicon glyphicon-time relogio"></span>
-                    19:00 - 22:00
-                </small>
-                <h3>Minicurso 2 - Desenvolvimento Mobile Nativo com NativeScript</h3>
-                <p>
-<strong>Ministrantes: Lucas Antonio Ramos Sartori e Mateus Spadari</strong>
-<br>
-Por muitos anos o mercado de desenvolvimento mobile era exclusivo de linguagens nativas como Objective-C e Java. Conforme o tempo foi passando, surgiram novas tecnologias e linguagens, tal como o Kotlin no Android e Swift no iOS. Como o JavaScript consegue estar realmente em todo lugar, ele conseguiu chegar também no mundo mobile. Neste minicurso será abordado o desenvolvimento de um aplicativo real com o framework, instalação de plugins, possibilidades do framework e muito mais.
-<br><br>
-Contato:
-Lucas Antonio Ramos Sartori (<a target="_blank" href="https://www.linkedin.com/in/lucas-antonio-ramos-sartori-4a61b6116/">Linkedin</a>, <a target="_blank" href="https://github.com/Sartori-RIA">Github</a> ou lucassartori@cookiecode.com.br)
-e Mateus Spadari (<a target="_blank" href="https://github.com/MateusSpadari">Github</a>)
-<br>
-<br>
-Recomendações:
-<ul>
-    <li>Trazer o proprio notebook:</li>
-    <ul>
-        <li>para quem for usar o emulador do android (ou ios), certifique-se do emulador estar funcionando antes do minurso (E TENHA NO MÍNIMO 8GB DE RAM PARA ISSO!!)</li>
-        <li>para quem for querer emular no próprio celular, traga seu próprio cabo USB para isso</li>
-    </ul>
-    <li>Softwares necessários:</li>
-    <ul>
-        <li>Nvm => <a target="_blank" href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></li>
-        <li>Node 10.15.3 => nvm install 10.15.3</li>
-        <li>instalado globalmente: TypeScript, Angular 8 e NativeScript => npm i -g typescript @angular/cli nativescript</li>
-    </ul>
-    <li>Configuração do NativeScript: <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-win">Windows</a>, <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-os-x">MacOS</a> e <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-linux">Linux</a></li>
-    <li>Rode o comando "tns doctor", ele irá analisar todo o ambiente e irá dizer o que falta configurar, se estiver usando windows ele consegue configurar o ambiente sozinho.</li>
-</ul>
-<br>
-Grupo de devs da cidade: <a target="_blank" href="https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS">https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS</a>
-<br><br>
-Quantidade de vagas: 10
-                </p>
-            </div>
-        </div>
-
-        <div class="cronograma-conteudo">
-            <figure class="col-sm-5 col-md-4">
                 <img src="<?= URL_IMG . 'linux.jpg' ?>" alt="Palestra">
             </figure>
             <div class="col-sm-7 col-md-8 cronograma-texto">
@@ -158,13 +119,34 @@ Quantidade de vagas: 10
                     <span class="glyphicon glyphicon-time relogio"></span>
                     19:00 - 22:00
                 </small>
-                <h3>Minicurso 3 - Introdução ao Sistema Operacional GNU/Linux</h3>
+                <h3>Minicurso 2 - Introdução ao Sistema Operacional GNU/Linux</h3>
                 <p>
 <strong>Ministrante: Peterson Medeiros</strong><br>
 Você tem algumas dificuldades com o Linux ou deseja sanar algumas dúvidas em relação a este Sistema Operacional? Se inscreva para fazer o minicurso de Linux! Como profissional de tecnologia, vai chegar um dia em que você precisará usar o Linux, então, esteja preparado! Como exemplo, você precisará implantar aplicações em servidores diretamente por linha de comando, quando a maioria dos servidores rodam no Linux, incluindo serviços em nuvem como Heroku e Digital Ocean.<br><br>
 Contato: <a target="_blank" href="https://www.linkedin.com/in/petersonmedeiros/">Linkedin</a> e <a target="_blank" href="https://github.com/Peterfilho">Github</a>.
 <br><br>
 Requisitos: nenhum.<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'materialize.png' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 3 - Interfaces Responsivas com CSS e Materialize</h3>
+                <p>
+<strong>Ministrante: Rafael Kendrik e Lucas Antonio Ramos Sartori</strong><br>
+Engana-se quem pensa que CSS se resume a apenas mudar a cor do texto ou a cor de fundo, neste minicurso iremos mostrar uma introdução sobre a construção profissional de interfaces de usuários usando técnicas de responsividade. Atualmente, as interfaces responsivas podem ser construídas via estruturas do CSS nativas ou via um framework de estilo, tal como o Materialize, nosso tema de estudo.<br><br>
+Contato: <a target="_blank" href="https://github.com/rafaelkendrik">Rafael Kendrik</a> e <a target="_blank" href="https://github.com/Sartori-RIA">Lucas Antonio Ramos Sartori</a>.
+<br><br>
+Requisitos: básico de HTML e CSS.<br><br>
 Quantidade de vagas: 10
                 </p>
             </div>
@@ -237,6 +219,127 @@ Quantidade de vagas: 10
                     19:00 - 22:00
                 </small>
                 <h3>Minicurso 6 - Introdução ao Vue.js</h3>
+                <p>
+<strong>Ministrante: Renan Silva, Matheus Mazepa e Pedro Ida</strong><br>
+Vue é um framework JavaScript progressivo para construção de interfaces de usuário. Ao contrário de outros frameworks monolíticos, Vue foi projetado desde sua concepção para ser adotável incrementalmente. A biblioteca principal é focada exclusivamente na camada visual, sendo fácil adotar e integrar com outras bibliotecas ou projetos existentes. Por outro lado, Vue também é perfeitamente capaz de dar poder a sofisticadas Single-Page Applications quando é usado em conjunto com ferramentas modernas e bibliotecas de apoio. No minicurso será feito um simples gerador de memes, para entender na prática os conceitos básicos dessa tecnologia.<br><br>
+Contato:
+<ul>
+    <li>Renan Silva: <a target="_blank" href="https://www.linkedin.com/in/renan-g-a-silva/">Linkedin</a>.</li>
+    <li>Matheus Mazepa: <a target="_blank" href="https://www.linkedin.com/in/matheus-mazepa-17019a2b/">Linkedin</a> e <a target="_blank" href="https://github.com/Matheus-Mazepa">Github</a></li>
+    <li>Pedro Ida: <a target="_blank" href="https://www.linkedin.com/in/pedro-henrique-serpa-ida-25417214a/">Linkedin</a> e <a target="_blank" href="https://github.com/pedroida">Github</a></li>
+</ul>
+Requisitos: HTML, CSS e JavaScript.
+<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-rodape"></div>
+    </div>
+
+
+<!-- DIA 04 =================================================== -->
+
+    <div class="cronograma">
+        <h2>Dia 04 - 26 de setembro de 2019</h2>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'arduino.png' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 7 - Arduino™: A imaginação é o limite</h3>
+                <p>
+<strong>Ministrante: Maria Luísa Ghizoni</strong><br>
+Arduino™ é a plataforma de prototipagem que revolucionou o mundo Maker e difundiu a cultura do Do It Yourself pelo mundo.
+Uma pequena placa com um propósito de revolução gigantesco, assim nasceu o Open-hardware Arduino™.
+Venha conhecer essa plataforma acessível, de baixo custo, flexível e de fácil utilização. Descubra as infinitas possibilidades de empregar ele no seu dia-a-dia.<br><br>
+Requisitos: conhecimento de programação.
+<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'lupa.png' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 8 - Descubra o fascinante mundo das Expressões Regulares (RegEx)</h3>
+                <p>
+<strong>Ministrante: Danilo Augusto Pinotti de Mello</strong><br>
+Expressão regular é uma forma de representar palavras, frases ou até parágrafos através de uma única notação. Entender e saber aplicá-las é algo essencial para pessoas da área de Tecnologia da Informação. As possibilidades são infinitas assim como sua utilização. O objetivo deste minicurso será ensinar o básico sobre RegEx e apresentar aplicações em situações reais do dia-a-dia de um profissional da área de informática.<br><br>
+Requisitos: nenhum.
+<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'nativescript.png' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 9 - Desenvolvimento Mobile Nativo com NativeScript</h3>
+                <p>
+<strong>Ministrantes: Lucas Antonio Ramos Sartori e Mateus Spadari</strong>
+<br>
+Por muitos anos o mercado de desenvolvimento mobile era exclusivo de linguagens nativas como Objective-C e Java. Conforme o tempo foi passando, surgiram novas tecnologias e linguagens, tal como o Kotlin no Android e Swift no iOS. Como o JavaScript consegue estar realmente em todo lugar, ele conseguiu chegar também no mundo mobile. Neste minicurso será abordado o desenvolvimento de um aplicativo real com o framework, instalação de plugins, possibilidades do framework e muito mais.
+<br><br>
+Contato:
+Lucas Antonio Ramos Sartori (<a target="_blank" href="https://www.linkedin.com/in/lucas-antonio-ramos-sartori-4a61b6116/">Linkedin</a>, <a target="_blank" href="https://github.com/Sartori-RIA">Github</a> ou lucassartori@cookiecode.com.br)
+e Mateus Spadari (<a target="_blank" href="https://github.com/MateusSpadari">Github</a>)
+<br>
+<br>
+Recomendações:
+<ul>
+    <li>Trazer o proprio notebook:</li>
+    <ul>
+        <li>para quem for usar o emulador do android (ou ios), certifique-se do emulador estar funcionando antes do minurso (E TENHA NO MÍNIMO 8GB DE RAM PARA ISSO!!)</li>
+        <li>para quem for querer emular no próprio celular, traga seu próprio cabo USB para isso</li>
+    </ul>
+    <li>Softwares necessários:</li>
+    <ul>
+        <li>Nvm => <a target="_blank" href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></li>
+        <li>Node 10.15.3 => nvm install 10.15.3</li>
+        <li>instalado globalmente: TypeScript, Angular 8 e NativeScript => npm i -g typescript @angular/cli nativescript</li>
+    </ul>
+    <li>Configuração do NativeScript: <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-win">Windows</a>, <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-os-x">MacOS</a> e <a target="_blank" href="https://docs.nativescript.org/angular/start/ns-setup-linux">Linux</a></li>
+    <li>Rode o comando "tns doctor", ele irá analisar todo o ambiente e irá dizer o que falta configurar, se estiver usando windows ele consegue configurar o ambiente sozinho.</li>
+</ul>
+<br>
+Grupo de devs da cidade: <a target="_blank" href="https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS">https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS</a>
+<br><br>
+Quantidade de vagas: 10
+                </p>
+            </div>
+        </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'vuejs.png' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 22:00
+                </small>
+                <h3>Minicurso 10 - Introdução ao Vue.js</h3>
                 <p>
 <strong>Ministrante: Renan Silva, Matheus Mazepa e Pedro Ida</strong><br>
 Vue é um framework JavaScript progressivo para construção de interfaces de usuário. Ao contrário de outros frameworks monolíticos, Vue foi projetado desde sua concepção para ser adotável incrementalmente. A biblioteca principal é focada exclusivamente na camada visual, sendo fácil adotar e integrar com outras bibliotecas ou projetos existentes. Por outro lado, Vue também é perfeitamente capaz de dar poder a sofisticadas Single-Page Applications quando é usado em conjunto com ferramentas modernas e bibliotecas de apoio. No minicurso será feito um simples gerador de memes, para entender na prática os conceitos básicos dessa tecnologia.<br><br>
