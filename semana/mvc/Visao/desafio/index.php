@@ -39,12 +39,12 @@
             	'texto' => 'Mensagem oculta',
             ]) ?>
 
-            <?php /*$this->incluirVisao('desafio/item.php', [
+            <?php $this->incluirVisao('desafio/item.php', [
                 'id' => 2,
-            	'arquivo' => 'numeros.zip',
+            	'arquivo' => 'sucesso.zip',
             	'img' => 'dicionario.png',
             	'texto' => 'Números do sucesso',
-            ]) */?>
+            ]) ?>
 
         </div>
         <div class="cronograma-rodape"></div>
