@@ -11,9 +11,17 @@ class TesteControlador extends Controlador
 {
     public function index()
     {
-    	$sql = 'SELECT * FROM usuarios_codigos ORDER BY data_criacao DESC';
+    	$sql = 'SELECT * FROM usuarios_codigos ORDER BY data_criacao';
         $comando = DW3BancoDeDados::query($sql);
         echo '<pre>';
-        var_dump($comando->fetchAll());
+        $all = $comando->fetchAll();
+        $pontos = 100;
+        foreach ($all as $registro) {
+            $registro['pontos2'] = $pontos;
+            var_dump($registro);
+            if ($pontos > 80) {
+                $pontos--;
+            }
+        }
     }
 }
