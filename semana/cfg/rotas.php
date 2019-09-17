@@ -13,4 +13,7 @@ $rotas = [
         'POST' => '\Controlador\LoginControlador#armazenar',
         'DELETE' => '\Controlador\LoginControlador#destruir',
     ],
+    '/teste' => [
+        'GET' => '\Controlador\TesteControlador#index',
+    ],
 ];
