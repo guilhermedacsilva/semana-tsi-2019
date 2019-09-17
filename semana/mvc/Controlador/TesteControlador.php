@@ -18,7 +18,7 @@ class TesteControlador extends Controlador
         foreach ($all as $registro) {
             $registro['pontos2'] = $pontos;
             $usuario_id = $registro['usuario_id'];
-            DW3BancoDeDados::exec("UPDATE FROM usuarios_codigos SET pontos = $pontos WHERE usuario_id = $usuario_id");
+            DW3BancoDeDados::exec("UPDATE usuarios_codigos SET pontos = $pontos WHERE usuario_id = $usuario_id");
             //var_dump($registro);
             if ($pontos > 80) {
                 $pontos--;
