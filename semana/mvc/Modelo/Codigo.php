@@ -51,7 +51,7 @@ class Codigo extends Modelo
     public function salvar()
     {
     	$qntUtilizado = self::quantidadeUtilizado($this->codigoId);
-    	$pontos = max(10 - $qntUtilizado[0], 7);
+    	$pontos = max(100 - $qntUtilizado[0], 80);
         $comando = DW3BancoDeDados::prepare(self::INSERIR_COM_USUARIO);
         $comando->bindValue(1, $this->usuarioId);
         $comando->bindValue(2, $this->codigoId);
