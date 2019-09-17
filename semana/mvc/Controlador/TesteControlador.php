@@ -11,7 +11,7 @@ class TesteControlador extends Controlador
 {
     public function index()
     {
-    	$sql = 'SELECT * FROM usuarios_codigos ORDER BY data_criaca DESC';
+    	$sql = 'SELECT * FROM usuarios_codigos ORDER BY data_criacao DESC';
         $comando = DW3BancoDeDados::query($sql);
         var_dump($comando);
     }
