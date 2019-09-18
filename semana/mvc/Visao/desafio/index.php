@@ -41,10 +41,24 @@
 
             <?php $this->incluirVisao('desafio/item.php', [
                 'id' => 2,
-            	'arquivo' => 'sucesso.zip',
-            	'img' => 'dicionario.png',
-            	'texto' => 'Números do sucesso',
+                'arquivo' => 'sucesso.zip',
+                'img' => 'dicionario.png',
+                'texto' => 'Números do sucesso',
             ]) ?>
+
+            <?php $this->incluirVisao('desafio/item.php', [
+                'id' => 3,
+                'arquivo' => 'palavras.zip',
+                'img' => 'palavras.png',
+                'texto' => 'Palavras',
+            ]) ?>
+
+            <?php /*$this->incluirVisao('desafio/item.php', [
+                'id' => 4,
+                'arquivo' => 'calculadora.zip',
+                'img' => 'calculadora.png',
+                'texto' => 'Calculadora',
+            ])*/ ?>
 
         </div>
         <div class="cronograma-rodape"></div>
