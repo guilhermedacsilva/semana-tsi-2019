@@ -53,12 +53,12 @@
                 'texto' => 'Palavras',
             ]) ?>
 
-            <?php /*$this->incluirVisao('desafio/item.php', [
+            <?php $this->incluirVisao('desafio/item.php', [
                 'id' => 4,
                 'arquivo' => 'calculadora.zip',
                 'img' => 'calculadora.png',
                 'texto' => 'Calculadora',
-            ])*/ ?>
+            ]) ?>
 
         </div>
         <div class="cronograma-rodape"></div>

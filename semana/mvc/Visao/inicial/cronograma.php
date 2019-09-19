@@ -32,9 +32,9 @@
             <div class="col-sm-7 col-md-8 cronograma-texto">
                 <small>
                     <span class="glyphicon glyphicon-time relogio"></span>
-                    19:30 - 21:00
+                    19:30 - 20:30
                 </small>
-                <h3>Palestra principal</h3>
+                <h3>Palestra 1</h3>
                 <p>
 <strong>Título da Palestra:</strong> Inteligência em Negócios: Uma visão de mercado<br><br>
 <strong>Descrição:</strong> Promover uma discussão sobre o mercado de Business Intelligence e de TI de uma forma geral, abordando os conhecimentos esperados de um profissional neste segmento.<br><br>
@@ -45,6 +45,28 @@ Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 an
                 </p>
             </div>
         </div>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'palestra2.jpg' ?>" alt="Palestra">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    20:30 - 21:30
+                </small>
+                <h3>Palestra 2</h3>
+                <p>
+<strong>Título da Palestra:</strong> Iot na industria 4.0 - Três casos de uso reais de aplicação em produção (aquisição e monitoramento de dados)<br><br>
+<strong>Descrição:</strong> Como entender a real aplicação da Iot na industria e no dia a dia. Neste evento irei demostrar três casos reais da utilização da Iot em ambientes industriais monitorando e capturando dados de produção. Também irei explicar tecnologias aplicadas e infraestrutura necessária para cada um dos três projetos como protocolos para Iot como MQTT, LORA/ LORAWAN entre outros.<br><br>
+<strong>Palestrante:</strong> Wilian Diogo Pasternak<br><br>
+<strong>Biografia:</strong> Wilian Pasternak, apaixonado por teclogia e inovação, Tecnológo em análise e desenvolvimento de sistemas em 2012, pós-graduado em desenvolvimento de sistemas web e mestre em computação aplicada pela UEPG em 2016. Proprietário da empresa Maxxi Soluções, possui diversos clientes no setor energético, madeireiro, papel e celulose e empresas de desenvolvimento de softwares.A Maxxi Soluções analisa e desenvolve soluções específicas em softwares e hardware por demandas de outras empresas, melhorando e monitorando diversos processos.
+
+                </p>
+            </div>
+        </div>
+
+
         <div class="cronograma-rodape"></div>
     </div>
 
