@@ -60,6 +60,27 @@
                 'texto' => 'Calculadora',
             ]) ?>
 
+            <?php $this->incluirVisao('desafio/item.php', [
+                'id' => 5,
+                'arquivo' => 'Em_Negrito_no_Livro_Arquitetura_Pg_388.zip',
+                'img' => 'livro.jpg',
+                'texto' => 'Biblioteca',
+            ]) ?>
+
+            <?php $this->incluirVisao('desafio/item.php', [
+                'id' => 6,
+                'arquivo' => 'quebra-cabeca.zip',
+                'img' => 'puzzle.png',
+                'texto' => 'Quebra-cabeça',
+            ]) ?>
+
+            <?php $this->incluirVisao('desafio/item.php', [
+                'id' => 7,
+                'arquivo' => 'banco_de_dados.zip',
+                'img' => 'bd.png',
+                'texto' => 'Banco de dados',
+            ]) ?>
+
         </div>
         <div class="cronograma-rodape"></div>
     </div>
