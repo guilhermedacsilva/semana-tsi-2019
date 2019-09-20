@@ -36,12 +36,10 @@
                 </small>
                 <h3>Palestra 1</h3>
                 <p>
-<strong>Título da Palestra:</strong> Inteligência em Negócios: Uma visão de mercado<br><br>
-<strong>Descrição:</strong> Promover uma discussão sobre o mercado de Business Intelligence e de TI de uma forma geral, abordando os conhecimentos esperados de um profissional neste segmento.<br><br>
-<strong>Palestrante:</strong> Flávio Hideki Ono<br><br>
-<strong>Biografia:</strong> Natural de Londrina-PR, Flávio Ono é graduado em Processamento de Dados pela Universidade Estadual de Maringá (UEM) e pós-graduado  em Gestão Estratégica de Negócios pelo ISAE/FGV. Contando com mais de 25 anos de atuação na área de TI, trabalhou como analista de sistemas em empresas como COAMO e COCAMAR e atuou também na área de infraestrutura de TI e gestão (site manager PR/SC) nas empresas Global Telecom, Vivo, Portugal Telecom e PrimeSys. 
-Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 anos até encarar um novo desafio, iniciando como sócio-proprietário da QTI, empresa local de desenvolvimento de software e consultoria em gestão.
-
+<strong>Título da Palestra:</strong> Iot na industria 4.0 - Três casos de uso reais de aplicação em produção (aquisição e monitoramento de dados)<br><br>
+<strong>Descrição:</strong> Como entender a real aplicação da Iot na industria e no dia a dia. Neste evento irei demostrar três casos reais da utilização da Iot em ambientes industriais monitorando e capturando dados de produção. Também irei explicar tecnologias aplicadas e infraestrutura necessária para cada um dos três projetos como protocolos para Iot como MQTT, LORA/ LORAWAN entre outros.<br><br>
+<strong>Palestrante:</strong> Wilian Diogo Pasternak<br><br>
+<strong>Biografia:</strong> Wilian Pasternak, apaixonado por teclogia e inovação, Tecnológo em análise e desenvolvimento de sistemas em 2012, pós-graduado em desenvolvimento de sistemas web e mestre em computação aplicada pela UEPG em 2016. Proprietário da empresa Maxxi Soluções, possui diversos clientes no setor energético, madeireiro, papel e celulose e empresas de desenvolvimento de softwares.A Maxxi Soluções analisa e desenvolve soluções específicas em softwares e hardware por demandas de outras empresas, melhorando e monitorando diversos processos.
                 </p>
             </div>
         </div>
@@ -57,11 +55,11 @@ Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 an
                 </small>
                 <h3>Palestra 2</h3>
                 <p>
-<strong>Título da Palestra:</strong> Iot na industria 4.0 - Três casos de uso reais de aplicação em produção (aquisição e monitoramento de dados)<br><br>
-<strong>Descrição:</strong> Como entender a real aplicação da Iot na industria e no dia a dia. Neste evento irei demostrar três casos reais da utilização da Iot em ambientes industriais monitorando e capturando dados de produção. Também irei explicar tecnologias aplicadas e infraestrutura necessária para cada um dos três projetos como protocolos para Iot como MQTT, LORA/ LORAWAN entre outros.<br><br>
-<strong>Palestrante:</strong> Wilian Diogo Pasternak<br><br>
-<strong>Biografia:</strong> Wilian Pasternak, apaixonado por teclogia e inovação, Tecnológo em análise e desenvolvimento de sistemas em 2012, pós-graduado em desenvolvimento de sistemas web e mestre em computação aplicada pela UEPG em 2016. Proprietário da empresa Maxxi Soluções, possui diversos clientes no setor energético, madeireiro, papel e celulose e empresas de desenvolvimento de softwares.A Maxxi Soluções analisa e desenvolve soluções específicas em softwares e hardware por demandas de outras empresas, melhorando e monitorando diversos processos.
-
+<strong>Título da Palestra:</strong> Inteligência em Negócios: Uma visão de mercado<br><br>
+<strong>Descrição:</strong> Promover uma discussão sobre o mercado de Business Intelligence e de TI de uma forma geral, abordando os conhecimentos esperados de um profissional neste segmento.<br><br>
+<strong>Palestrante:</strong> Flávio Hideki Ono<br><br>
+<strong>Biografia:</strong> Natural de Londrina-PR, Flávio Ono é graduado em Processamento de Dados pela Universidade Estadual de Maringá (UEM) e pós-graduado  em Gestão Estratégica de Negócios pelo ISAE/FGV. Contando com mais de 25 anos de atuação na área de TI, trabalhou como analista de sistemas em empresas como COAMO e COCAMAR e atuou também na área de infraestrutura de TI e gestão (site manager PR/SC) nas empresas Global Telecom, Vivo, Portugal Telecom e PrimeSys. 
+Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 anos até encarar um novo desafio, iniciando como sócio-proprietário da QTI, empresa local de desenvolvimento de software e consultoria em gestão.
                 </p>
             </div>
         </div>
