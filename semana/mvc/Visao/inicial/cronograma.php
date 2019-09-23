@@ -39,7 +39,8 @@
 <strong>Título da Palestra:</strong> Iot na industria 4.0 - Três casos de uso reais de aplicação em produção (aquisição e monitoramento de dados)<br><br>
 <strong>Descrição:</strong> Como entender a real aplicação da Iot na industria e no dia a dia. Neste evento irei demostrar três casos reais da utilização da Iot em ambientes industriais monitorando e capturando dados de produção. Também irei explicar tecnologias aplicadas e infraestrutura necessária para cada um dos três projetos como protocolos para Iot como MQTT, LORA/ LORAWAN entre outros.<br><br>
 <strong>Palestrante:</strong> Wilian Diogo Pasternak<br><br>
-<strong>Biografia:</strong> Wilian Pasternak, apaixonado por teclogia e inovação, Tecnológo em análise e desenvolvimento de sistemas em 2012, pós-graduado em desenvolvimento de sistemas web e mestre em computação aplicada pela UEPG em 2016. Proprietário da empresa Maxxi Soluções, possui diversos clientes no setor energético, madeireiro, papel e celulose e empresas de desenvolvimento de softwares.A Maxxi Soluções analisa e desenvolve soluções específicas em softwares e hardware por demandas de outras empresas, melhorando e monitorando diversos processos.
+<strong>Biografia:</strong> Wilian Pasternak, apaixonado por teclogia e inovação, Tecnológo em análise e desenvolvimento de sistemas em 2012, pós-graduado em desenvolvimento de sistemas web e mestre em computação aplicada pela UEPG em 2016. Proprietário da empresa Maxxi Soluções, possui diversos clientes no setor energético, madeireiro, papel e celulose e empresas de desenvolvimento de softwares.A Maxxi Soluções analisa e desenvolve soluções específicas em softwares e hardware por demandas de outras empresas, melhorando e monitorando diversos processos.<br><br>
+<strong>Local:</strong> Miniauditório do Bloco R.
                 </p>
             </div>
         </div>
@@ -59,7 +60,8 @@
 <strong>Descrição:</strong> Promover uma discussão sobre o mercado de Business Intelligence e de TI de uma forma geral, abordando os conhecimentos esperados de um profissional neste segmento.<br><br>
 <strong>Palestrante:</strong> Flávio Hideki Ono<br><br>
 <strong>Biografia:</strong> Natural de Londrina-PR, Flávio Ono é graduado em Processamento de Dados pela Universidade Estadual de Maringá (UEM) e pós-graduado  em Gestão Estratégica de Negócios pelo ISAE/FGV. Contando com mais de 25 anos de atuação na área de TI, trabalhou como analista de sistemas em empresas como COAMO e COCAMAR e atuou também na área de infraestrutura de TI e gestão (site manager PR/SC) nas empresas Global Telecom, Vivo, Portugal Telecom e PrimeSys. 
-Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 anos até encarar um novo desafio, iniciando como sócio-proprietário da QTI, empresa local de desenvolvimento de software e consultoria em gestão.
+Em 2006, assumiu a gestão de TI da Cooperativa Agrária onde trabalhou por 6 anos até encarar um novo desafio, iniciando como sócio-proprietário da QTI, empresa local de desenvolvimento de software e consultoria em gestão.<br><br>
+<strong>Local:</strong> Miniauditório do Bloco R.
                 </p>
             </div>
         </div>
@@ -125,7 +127,8 @@ Requisitos:
     <li>Conta no Github</li>
     <li>Para quem trouxer notebook, ter o Git instalado na versão 2.0 ou superior</li>
 </ul>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B6 do Bloco B.
                 </p>
             </div>
         </div>
@@ -146,7 +149,8 @@ Você tem algumas dificuldades com o Linux ou deseja sanar algumas dúvidas em r
 Contato: <a target="_blank" href="https://www.linkedin.com/in/petersonmedeiros/">Linkedin</a> e <a target="_blank" href="https://github.com/Peterfilho">Github</a>.
 <br><br>
 Requisitos: nenhum.<br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório F7 do Bloco F.
                 </p>
             </div>
         </div>
@@ -167,7 +171,8 @@ Engana-se quem pensa que CSS se resume a apenas mudar a cor do texto ou a cor de
 Contato: <a target="_blank" href="https://github.com/rafaelkendrik">Rafael Kendrik</a> e <a target="_blank" href="https://github.com/Sartori-RIA">Lucas Antonio Ramos Sartori</a>.
 <br><br>
 Requisitos: básico de HTML e CSS.<br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório F8 do Bloco F.
                 </p>
             </div>
         </div>
@@ -202,7 +207,8 @@ Requisitos:
     <li>XML PHP Extension</li>
     <li>Também será necessário possuir o banco de dados sqlite habilitado para a realização dos acessos ao banco.</li>
 </ul>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B8 do Bloco B.
                 </p>
             </div>
         </div>
@@ -224,7 +230,8 @@ Contato: <a target="_blank" href="https://www.linkedin.com/in/alessandrodbatista
 <br><br>
 Requisitos: Java ou PHP ou Ruby ou JavaScript.
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B7 do Bloco B.
                 </p>
             </div>
         </div>
@@ -250,7 +257,8 @@ Contato:
 </ul>
 Requisitos: HTML, CSS e JavaScript.
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório F3 do Bloco F.
                 </p>
             </div>
         </div>
@@ -281,7 +289,8 @@ Uma pequena placa com um propósito de revolução gigantesco, assim nasceu o Op
 Venha conhecer essa plataforma acessível, de baixo custo, flexível e de fácil utilização. Descubra as infinitas possibilidades de empregar ele no seu dia-a-dia.<br><br>
 Requisitos: conhecimento de programação.
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B8 do Bloco B.
                 </p>
             </div>
         </div>
@@ -301,7 +310,8 @@ Quantidade de vagas: 10
 Expressão regular é uma forma de representar palavras, frases ou até parágrafos através de uma única notação. Entender e saber aplicá-las é algo essencial para pessoas da área de Tecnologia da Informação. As possibilidades são infinitas assim como sua utilização. O objetivo deste minicurso será ensinar o básico sobre RegEx e apresentar aplicações em situações reais do dia-a-dia de um profissional da área de informática.<br><br>
 Requisitos: nenhum.
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B6 do Bloco B.
                 </p>
             </div>
         </div>
@@ -345,7 +355,8 @@ Recomendações:
 <br>
 Grupo de devs da cidade: <a target="_blank" href="https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS">https://chat.whatsapp.com/6FJvmJqocj40Xw8TqG75TS</a>
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório F3 do Bloco F.
                 </p>
             </div>
         </div>
@@ -371,11 +382,50 @@ Contato:
 </ul>
 Requisitos: HTML, CSS e JavaScript.
 <br><br>
-Quantidade de vagas: 10
+Quantidade de vagas: 10<br><br>
+<strong>Local:</strong> Laboratório B7 do Bloco B.
                 </p>
             </div>
         </div>
 
+        <div class="cronograma-rodape"></div>
+    </div>
+
+<!-- DIA 05 =================================================== -->
+
+    <div class="cronograma">
+        <h2>Dia 05 - 27 de setembro de 2019</h2>
+
+        <div class="cronograma-conteudo">
+            <figure class="col-sm-5 col-md-4">
+                <img src="<?= URL_IMG . 'futebol.jpg' ?>" alt="Futebol">
+            </figure>
+            <div class="col-sm-7 col-md-8 cronograma-texto">
+                <small>
+                    <span class="glyphicon glyphicon-time relogio"></span>
+                    19:00 - 20:00
+                </small>
+                <h3>Torneio de Futebol de DEVs</h3>
+                <p>
+Venha defender a sua linguagem de programação preferida no I Torneio de Futebol de Devs!<br><br>
+
+O torneio tem início previsto para as 19h de sexta-feira, 27/09, na quadra da UTFPR, depois do grande amistoso entre Professores e Alunos de TSI.
+Para jogar, preencha o formulário com seu nome e as preferências de time que deseja defender: Java, JavaScript, PHP ou Ruby.<br><br>
+
+<a href="https://forms.gle/qG2x6g5S5yKbAXo49" target="_blank">https://forms.gle/qG2x6g5S5yKbAXo49</a><br><br>
+
+Como somos desenvolvedores de software e não jogadores de futebol, não precisa ser bom de bola para jogar, não se espera isso, o que se espera é muita diversão e bola pro mato porque é jogo de devs.<br><br>
+
+Cores de camisa sugeridas:<br>
+Java: azul<br>
+JavaScript: amarelo<br>
+PHP: verde<br>
+Ruby: vermelho<br><br>
+
+Bora lá participar!
+                </p>
+            </div>
+        </div>
         <div class="cronograma-rodape"></div>
     </div>
 </section>

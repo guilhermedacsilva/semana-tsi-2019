@@ -9,6 +9,11 @@ use \Framework\DW3BancoDeDados;
 
 class TesteControlador extends Controlador
 {
+    public function irRaiz()
+    {
+        $this->redirecionar(URL_RAIZ);
+    }
+
     public function index()
     {
     	$sql = 'SELECT * FROM usuarios_codigos ORDER BY data_criacao';
