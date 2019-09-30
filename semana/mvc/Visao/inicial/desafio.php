@@ -9,6 +9,12 @@
             <!--
             <a class="btn btn-default" href="<?= URL_RAIZ . 'desafio' ?>">Entrar no desafio</a><br><br> -->
             O desafio da 8ª Semana Acadêmica de TSI será composto por charadas envolvendo diversos temas da área de computação. Não serão charadas tradicionais, com adivinhação, mas pequenos desafios computacionais, que serão liberados aos poucos para os alunos resolverem. Depois de resolver uma charada, digite o código descoberto na página do desafio para ganhar os pontos. Corra, pois quem resolver primeiro ganhará mais pontos!
+            <br><br>
+            Ranking<br>
+            <?php foreach ($ranking as $chave => $aluno) : ?>
+                <?= $chave+1 . ' - ' . $aluno['nome'] ?> (<?= $aluno['pontuacao'] ?> pontos)<br>
+            <?php endforeach ?>
+            <!--
             <?php if (count($melhores) == 5) : ?>
                 <br><br>
                 Ranking dos 5 melhores em ORDEM ALFABÉTICA<br>
@@ -23,6 +29,7 @@
                     <?php endforeach ?>
                 <?php endif ?>
             <?php endif ?>
+            -->
         </p>
     </section>
 </div>
